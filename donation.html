@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<title>Donation</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="registration.html">Blood Registration</a></li>
+        <li><a href="search.html">Blood Search</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="donation.html">Donation</a></li>
+      </ul>
+    </nav>
+</head>
+
+<body>
+	
+	<main>
+		<section class="donation-form">
+			<h2>Enter your donation information</h2>
+			<form action="donate-money.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required> <br>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required> <br>
+				
+				<label for="amount">Donation Amount:</label>
+				<input type="number" id="amount" name="amount" min="1" required>  <br>
+				
+				<label for="message">Message (optional):</label>
+				<textarea id="message" name="message"></textarea>
+				
+				<button type="submit">Donate</button>
+			</form>
+		</section>
+        <p style="text-align: justify;"> 
+            Donating money to a blood bank can help save lives. Blood banks need funds to operate and maintain their facilities, purchase necessary equipment and supplies, and pay for staff salaries. These donations can help ensure that blood is available for those in need and can make a significant impact in the community.
+
+Money donations can be used to help blood banks run donation drives, which can help bring in more blood donations. This can also help raise awareness about the importance of blood donation and encourage more people to become donors.
+
+In addition, donations can help blood banks provide blood and related products to hospitals and medical facilities in need. Many hospitals rely on blood banks to provide them with the blood and blood products necessary for transfusions and other medical procedures. By donating money to a blood bank, individuals can help ensure that hospitals have the resources they need to treat patients.
+
+Overall, donating money to a blood bank can help save lives and support the important work of these organizations.
+
+
+
+
+
+        </p>
+	</main>
+	<footer>
+		<p>&copy; 2023 Blood Bank</p>
+	</footer>
+</body>
+</html>

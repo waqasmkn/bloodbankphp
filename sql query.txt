@@ -1,0 +1,11 @@
+CREATE TABLE donors (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    age INT(11) NOT NULL,
+    gender ENUM('male', 'female', 'other') NOT NULL,
+    bloodgroup ENUM('A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-') NOT NULL,
+    city VARCHAR(255) NOT NULL,
+    cellno VARCHAR(20) NOT NULL,
+    address TEXT NOT NULL,
+    PRIMARY KEY (id)
+);

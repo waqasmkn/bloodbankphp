@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Blood Search</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="registration.html">Blood Registration</a></li>
+        <li><a href="search.html">Blood Search</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="donation.html">Donation</a></li>
+      </ul>
+    </nav>
+    <main class="main-content">
+      <h2>Blood Search</h2>
+      <form action="blood_search.php" method="POST">
+        <label for="city">City:</label>
+        <select name="city" id="city">
+          <option value="select">Select a City</option>
+          <option value="Mamukanjan">Mamukanjan</option>
+          <option value="Faisalabad">Faisalabad</option>
+          <option value="Lahore">Lahore</option>
+        </select>
+        <label for="blood-group">Blood Group:</label>
+        <select name="bloodgroup" id="bloodgroup">
+          <option value="select">Select a Blood Group</option>
+          <option value="A+">A+</option>
+          <option value="B+">B+</option>
+          <option value="AB+">AB+</option>
+          <option value="O+">O+</option>
+          <option value="A-">A-</option>
+          <option value="B-">B-</option>
+          <option value="AB-">AB-</option>
+          <option value="O-">O-</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+      <p>&copy; 2023 Blood Bank</p>
+    </footer>
+  </body>
+</html>
